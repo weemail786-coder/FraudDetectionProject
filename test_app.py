@@ -30,3 +30,4 @@ def test_predict_low_risk():
     })
     assert response.status_code == 200
     assert response.json()["fraud_flag"] is False
+
